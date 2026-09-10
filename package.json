@@ -1,0 +1,23 @@
+{
+  "name": "ayush_amazon_tracker",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "bcryptjs": "^3.0.3",
+    "cookie": "^2.0.1",
+    "framer-motion": "latest",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "latest",
+    "mongodb": "^7.6.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "vite": "latest"
+  }
+}
