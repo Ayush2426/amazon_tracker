@@ -1,5 +1,5 @@
-import { clearAuthCookie } from "../_lib/auth.js";
-import { json, methodNotAllowed } from "../_lib/response.js";
+import { clearAuthCookie } from "../lib/auth.js";
+import { json, methodNotAllowed } from "../lib/response.js";
 
 export default async function handler(req, res) {
     if (req.method !== "POST") {
